@@ -419,6 +419,16 @@ main .carouse2 .card:nth-child(8) {
   background-position: center;
   background-repeat: no-repeat;
 }
+main .project {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .project h1 {
+  font-size: 5rem;
+}
 
 @media (min-width: 769px) {
   main {
